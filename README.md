@@ -18,3 +18,7 @@ This project involves analyzing the sales performance of a retail store by explo
 - Monthly sales trends for the current year.
 - Identification of top customers and products with no sales in the last quarter
    3.  Sales Data exploration using Power BI : this would mostly entail key visualisation of the entire insights extracted prom the data as a whole.
+
+  ### Raw Data
+  here is the path link to the raw data that will be worked on LITA Capstone Dataset 
+  
