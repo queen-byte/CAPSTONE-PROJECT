@@ -38,7 +38,7 @@ This project involves analyzing the sales performance of a retail store by explo
    - Filled the column down, to ensure other rows had its total sales.
 
 ### Clean Data
- 
+  here is the path link to the raw data that will be worked on LITA Capstone Dataset
  
 
   
