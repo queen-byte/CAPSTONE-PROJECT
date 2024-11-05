@@ -20,5 +20,8 @@ This project involves analyzing the sales performance of a retail store by explo
    3.  Sales Data exploration using Power BI : this would mostly entail key visualisation of the entire insights extracted prom the data as a whole.
 
   ### Raw Data
-  here is the path link to the raw data that will be worked on LITA Capstone Dataset 
+  here is the path link to the raw data that will be worked on LITA Capstone Dataset
+  [download](https://github.com/queen-byte/CAPSTONE-PROJECT/blob/a12c14bd76ce34905a69e55a21a3129444b0d34f/LITA%20Capstone%20Dataset%20(SalesData).csv)
+
+  
   
