@@ -41,6 +41,7 @@ This project involves analyzing the sales performance of a retail store by explo
 ####  Purpose of the Pivot Table
 - Summarize Total Sales by Product
 This illustration highlighs the total amount generated from the sale of a particular product. Whereby, it also showcases the product with the highest sales to the lowest.
+[Download](https://github.com/queen-byte/CAPSTONE-PROJECT/blob/2acd8811c14cbc78e9cc3f15f9fe54f2fc618fd9/Screenshot%20(150).png)
 
 
 
