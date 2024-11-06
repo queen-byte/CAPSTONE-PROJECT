@@ -16,7 +16,7 @@ This project involves analyzing the sales performance of a retail store by explo
 - Total sales by product category and region.
 - Highest-selling products by total sales value.
 - Monthly sales trends for the current year.
-- Identification of top customers and products with no sales in the last quarter
+- Identify products with no sales the last quater.
    3.  Sales Data exploration using Power BI : this would mostly entail key visualisation of the entire insights extracted prom the data as a whole.
 
  ### Raw Data
@@ -64,16 +64,53 @@ This illustration highlighs the Average amount generated from the sale of a part
  #### Steps taken
  - First thing was to import the already cleaned file from Excel into the SQL server
  - a problem arose when some part of the Data was showing null, but this was rectified by issuing the query
+   
   `DELETE
     FROM [dbo].[SALES_DATA]
     WHERE OrderId  IS NULL`
 - With the NULL values erased, gave room for proper analysis
 - Total sales by product category and region was calculated
+  
   `select PRODUCT, region,
    sum(TOTAL_SALES) AS TOTAL_SALES
    FROM SALES_DATA
    GROUP BY PRODUCT, region
    ORDER BY 3 DESc`
+- Highest-selling products by total sales value
+  
+  `select PRODUCT, SUM(TOTAL_SALES) AS TOTAL_SALES
+FROM SALES_DATA
+GROUP BY PRODUCT
+ORDER BY 2 DESC`
+
+-  Monthly sales trends for the current year. In this case the current year is 2024
+
+  `SELECT MONTH(OrderDate) AS month, SUM(Total_Sales) AS total_sales
+FROM 
+sales_data
+WHERE 
+    YEAR(OrderDate) = YEAR(GETDATE())  
+GROUP BY 
+    MONTH(OrderDate)
+ORDER BY 
+    month`
+    
+-  Monthly sales trends for the previous year. In this case the previous year is 2023
+
+`SELECT 
+ MONTH(OrderDate) AS month,
+ SUM(Total_Sales) AS total_sales
+FROM 
+sales_data
+WHERE 
+    YEAR(OrderDate) = YEAR(GETDATE()) - 1 
+GROUP BY 
+    MONTH(OrderDate)
+ORDER BY 
+    month`
+
+
+
 
   
 
