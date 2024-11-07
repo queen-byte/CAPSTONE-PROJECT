@@ -44,7 +44,7 @@ This project involves analyzing the sales performance of a retail store by explo
  
 This illustration highlighs the total amount generated from the sale of a particular product. Whereby, it also showcases the product with the highest sales to the lowest.
 
-![Screenshot (194)](https://github.com/user-attachments/assets/a8a00759-3e57-4e40-9ab7-f074a2266022)
+ (![Screenshot (194)](https://github.com/user-attachments/assets/a8a00759-3e57-4e40-9ab7-f074a2266022))
 
 
 2. Summarize Total Sales by Region
