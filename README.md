@@ -51,7 +51,7 @@ This illustration highlighs the total amount generated from the sale of a partic
  
 This illustration highlighs the total amount generated from the sales in a particular region . Whereby, it also showcases the region with the highest sales to the lowest.
 
-![Screenshot (195)](https://github.com/user-attachments/assets/445bf9a2-2746-4f4c-8656-9ec054f0c2b3)
+[Download](https://github.com/queen-byte/CAPSTONE-PROJECT/blob/f7ac6c76fd343b6335ffe0319097b1878eafff2e/Screenshot%20(195).png)
 
 
 3. Summarize Total Sales by Product and Region
